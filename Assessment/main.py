@@ -20,18 +20,22 @@ def welcome_to_the_quiz():
     print("Welcome to the Quiz!!")
 
 def print_questions(score, questions):
+    question_number = 0
     for question in questions:
         print(f"Question: {question['Questions']}, Options: {question['Options']}")
         answer = input("Please type your answer (a, b, c, or d):  ")
         if answer == question['Answer']:
             print("Correct")
             score += 1
-            print (f"Your score is {score}")
+            question_number += 1    
+            print (f"Your score is {score}/{question_number} out of 20 questions")
         else:
+            question_number += 1
             print("Incorrect")
-            
+            print (f"Your score is {score}/{question_number} out of 20 questions")
+
     # presenting the user with a message that says topic complete, and gives them a final score for that topic.
-    
+     
 
 def main():
     score = 0
@@ -43,12 +47,5 @@ def main():
         if filtered_questions:
             print_questions(score, filtered_questions)  # Print the filtered questions
         play_quiz = input("would you like to play again?")
-
-
-    
-
-
-
-   
 
 main()
