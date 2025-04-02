@@ -20,7 +20,7 @@ def welcome_to_the_quiz():
     print("Welcome to the Quiz!!")
 
 def print_questions(score, questions):
-    question_number = 0
+    question_number = 0  
     for question in questions:
         print(f"Question: {question['Questions']}, Options: {question['Options']}")
         answer = input("Please type your answer (a, b, c, or d):  ")
