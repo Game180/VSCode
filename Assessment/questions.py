@@ -1,6 +1,6 @@
 questions = [
-    {
-        "Topic": "what", 
+    
+    {        "Topic": "what", 
         "Questions": "What is the first element of the periodic table?", 
         "Answer": "b",
         "Options": {
@@ -9,6 +9,10 @@ questions = [
             "c": "Rhodium",
             "d": "Boron"
         }
+        "Hint": {
+            "e": ('The correct answer is not d')
+        }
+        
     },
 
     {
@@ -20,6 +24,9 @@ questions = [
             "b": "Silicon",
             "c": "Selenium",
             "d": "Tin"
+    }
+        "Hint": {
+            "e": ('The correct answer is not c')
         }
     },
     
@@ -32,6 +39,9 @@ questions = [
             "b": "Quartz",
             "c": "Andorite",
             "d": "Magnesium"
+    }
+        "Hint": {
+            "e": ('The correct answer is not d')
         }
     },
      
@@ -44,7 +54,10 @@ questions = [
             "b": "a mile is 2.34078 times longer than a kilometre",
             "c": "a mile is 1.60934 times longer than a kilometre",
             "d": "a kilometre is 2.34078 times longer than a mile"
-        }
+    }
+        "Hint": {
+            "e": ('The correct answer is not d')
+    }
     },
    
     {
@@ -57,6 +70,9 @@ questions = [
             "c": "Communication",
             "d": "Community"
         }
+        }
+        "Hint": {
+            "e": ('The correct answer is not d')
     },
 
     {
@@ -69,6 +85,9 @@ questions = [
             "c": "green",
             "d": "purple"
         }
+        }
+        "Hint": {
+            "e": ('The correct answer is not d')
     },
 
     {
@@ -81,6 +100,9 @@ questions = [
             "c": "Selenium",
             "d": "Tin"
         }
+        }
+        "Hint": {
+            "e": ('The correct answer is not d')
     },
 
     {
