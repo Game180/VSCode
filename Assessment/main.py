@@ -37,8 +37,6 @@ def print_questions(score, questions):
             score += 1
             question_number += 1    
             print(f"\nYour score is {score}/{question_number} out of {len(questions)} questions\n")
-        elif answer == ('e'):
-            print(f"{question['Hint']}")
         else:
             question_number += 1
             print("\nIncorrect\n")

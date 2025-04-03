@@ -3,16 +3,12 @@ questions = [
         "Topic": "what", 
         "Questions": "What is the first element of the periodic table?", 
         "Answer": "b",
-        "Hint": {
-            "e": "not d"
-        },
         "Options": {
             "a": "Helium",
             "b": "Hydrogen",
             "c": "Rhodium",
             "d": "Boron"
         }
-
     },
 
     {
